@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- SEO Primary Meta Tags -->
+  <title>Panduan Memilih Offset (ET) & Lebar Velg Tanpa Gesrot Fender | VELOCE</title>
+  <meta name="title" content="Panduan Memilih Offset (ET) & Lebar Velg Tanpa Gesrot Fender | VELOCE">
+  <meta name="description"
+    content="Pelajari rumus perhitungan offset (ET) velg mobil, jarak clearance fender, dan cara mendapatkan fitment rata bodi (flush) yang aman untuk harian tanpa gesrot.">
+  <meta name="keywords"
+    content="offset velg, rumus et velg, fitment velg harian, velg rata fender, tire calculator, velg gesrot fender">
+  <meta name="author" content="Tim Teknis VELOCE">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://veloce-wheels.local/news-detail.html">
+  <meta property="og:title" content="Panduan Memilih Offset (ET) & Lebar Velg Tanpa Gesrot | VELOCE">
+  <meta property="og:description"
+    content="Cara menghitung offset velg dan clearance fender agar mobil harian tetap nyaman dan ganteng maksimal.">
+  <meta property="og:image"
+    content="https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=1200&q=80">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Panduan Memilih Offset (ET) & Lebar Velg Tanpa Gesrot Fender untuk Harian",
+    "image": "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=1200&q=80",
+    "author": {
+      "@type": "Organization",
+      "name": "VELOCE Engineering Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "VELOCE Luxury Wheels & Tires"
+    },
+    "datePublished": "2026-10-12",
+    "description": "Panduan teknis dan rumus matematis memilih offset (ET) velg mobil agar fitment rata fender tanpa gesrot di jalan bergelombang."
+  }
+  </script>
+</head>
+
+<body class="news-detail-page">
+
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-info">
+        <div class="topbar-info-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+          <span>Hotline: <a href="tel:+6281234567890" style="color:#fff; font-weight:600;">+62 812-3456-7890</a></span>
+        </div>
+        <div class="topbar-info-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="4" width="20" height="16" rx="2" />
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+          </svg>
+          <span>Email: <a href="mailto:info@veloce-wheels.local" style="color:#fff;">info@veloce-wheels.local</a></span>
+        </div>
+      </div>
+      <div class="topbar-right">
+        <div class="social-links-mini">
+          <a href="https://instagram.com" target="_blank" rel="noopener"><svg width="14" height="14" viewBox="0 0 24 24"
+              fill="none" stroke="currentColor" stroke-width="2">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+            </svg></a>
+          <a href="https://wa.me/6281234567890" target="_blank" rel="noopener"><svg width="14" height="14"
+              viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M17.472 14.382c-.301-.15-1.78-.877-2.056-.977-.276-.101-.477-.15-.678.15-.2.301-.778.977-.954 1.178-.175.201-.351.226-.652.075s-1.272-.469-2.424-1.496c-.896-.799-1.501-1.786-1.677-2.087-.175-.301-.019-.464.132-.614.135-.135.301-.351.451-.527.15-.175.2-.301.301-.501.101-.2.05-.376-.025-.527s-.678-1.631-.929-2.233c-.244-.587-.493-.508-.678-.517-.175-.008-.376-.01-.577-.01s-.527.075-.803.376c-.276.301-1.054 1.03-1.054 2.511s1.079 2.912 1.23 3.113c.15.201 2.124 3.243 5.145 4.547.719.31 1.28.495 1.718.634.722.23 1.378.197 1.897.12.578-.087 1.78-.727 2.031-1.429.251-.702.251-1.304.175-1.429-.074-.125-.276-.2-.577-.35zM12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.982-1.39A9.957 9.957 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z" />
+            </svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="brand-logo" aria-label="VELOCE Homepage">
+          <span class="logo-badge">V</span>
+          <div class="logo-meta">
+            <span class="logo-title">VELOCE</span>
+            <span class="logo-subtitle">WHEELS & TIRES</span>
+          </div>
+        </a>
+
+        <nav class="main-nav" aria-label="Main Navigation">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="newness.html" class="nav-link">Newness</a></li>
+            <li class="nav-item">
+              <a href="wheels.html" class="nav-link">Products <svg class="chevron" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg></a>
+              <ul class="dropdown-menu">
+                <li><a href="wheels.html" class="dropdown-item">Velg / Wheels</a></li>
+                <li><a href="tires.html" class="dropdown-item">Ban / Tires</a></li>
+                <li><a href="accessories.html" class="dropdown-item">Accessories & Suspension</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="tire-calculator.html" class="nav-link"
+                style="color: #ff4757; font-weight:700;">Tire Calculator</a></li>
+            <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="news.html" class="nav-link active">News & Promo</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button type="button" class="btn-icon searchBoxToggler" aria-label="Cari"><svg width="18" height="18"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg></button>
+          <button type="button" class="mobile-toggle" aria-label="Menu"><svg width="24" height="24" viewBox="0 0 24 24"
+              fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <section class="breadcrumb-banner">
+    <div class="container">
+      <div class="breadcrumb-content">
+        <ul class="breadcrumb-list">
+          <li><a href="index.html">Home</a></li>
+          <li class="breadcrumb-separator">/</li>
+          <li><a href="news.html">News & Promo</a></li>
+          <li class="breadcrumb-separator">/</li>
+          <li><span>Fitment Guide</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Article View Section -->
+  <main class="container">
+    <div class="article-container">
+
+      <!-- Article Main Column -->
+      <article class="article-main">
+
+        <header class="article-header">
+          <div style="display:flex; gap:12px; align-items:center; margin-bottom:12px;">
+            <span class="news-badge" style="position:static;">Fitment Guide</span>
+            <span style="font-size:0.85rem; color:#64748b;">12 Oktober 2026</span>
+            <span style="font-size:0.85rem; color:#64748b;">• 6 Menit Baca</span>
+          </div>
+
+          <h1>Panduan Memilih Offset (ET) & Lebar Velg Tanpa Gesrot Fender untuk Harian</h1>
+
+          <div style="display:flex; align-items:center; gap:12px; margin-top:16px;">
+            <div
+              style="width:40px; height:40px; border-radius:50%; background:var(--primary); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:800;">
+              V
+            </div>
+            <div>
+              <div style="font-weight:700; font-size:0.9rem; color:#1e293b;">Ditulis oleh Tim Teknis VELOCE</div>
+              <div style="font-size:0.75rem; color:#64748b;">Spesialis Fitment & Suspensi Otomotif</div>
+            </div>
+          </div>
+        </header>
+
+        <p class="article-lead">
+          Mengganti velg standar pabrikan dengan velg aftermarket yang berdiameter lebih besar dan tapak lebih lebar
+          adalah langkah paling cepat untuk mengubah karakter mobil. Namun, kesalahan perhitungan pada <strong>Offset
+            (ET)</strong> dan <strong>Rim Width</strong> sering kali berujung pada ban mentok fender, gesrot saat belok
+          patah, atau stabilitas kemudi yang menurun drastis.
+        </p>
+
+        <div class="article-featured-img">
+          <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=1200&q=80"
+            alt="Fitment velg mobil sport">
+        </div>
+
+        <div class="article-body">
+
+          <h2>1. Apa Sebenarnya Offset (ET) pada Velg?</h2>
+          <p>
+            Istilah <em>Einpresstiefe</em> (bahasa Jerman yang disingkat menjadi <strong>ET</strong>) atau
+            <strong>Offset</strong> mengukur jarak antara garis tengah velg (centerline) dengan bidang permukaan hub
+            pemasangan roda (mounting face).
+          </p>
+          <p>
+            Offset diukur dalam satuan milimeter (mm):
+          </p>
+          <ul>
+            <li><strong>Positive Offset (ET Positif):</strong> Mounting hub berada lebih condong ke arah sisi luar velg.
+              Velg akan masuk lebih dalam ke arah ruang shockbreaker. Karakteristik umum pada sebagian besar mobil
+              modern berpenggerak FWD dan AWD.</li>
+            <li><strong>Zero Offset (ET 0):</strong> Mounting hub tepat sejajar dengan garis tengah velg.</li>
+            <li><strong>Negative Offset (ET Negatif):</strong> Mounting hub condong ke arah dalam velg, menghasilkan
+              bibir velg (deep dish) yang sangat tebal dan velg menjulur keluar bodi. Umum pada mobil 4x4 offroad atau
+              widebody ekstrem.</li>
+          </ul>
+
+          <div class="article-callout">
+            <h4>💡 Rumus Praktis Penambahan Bibir Velg (Outer Extension)</h4>
+            <p>
+              Saat Anda menambah lebar velg sebesar 1 inci (25.4 mm), maka velg melebar 12.7 mm ke arah luar dan 12.7 mm
+              ke arah suspensi dalam. Jika nilai ET berkurang (misal dari ET 45 menjadi ET 35), bibir velg akan keluar
+              tambahan sebesar 10 mm. Total penonjolan ke bibir fender luar adalah <strong>22.7 mm</strong>.
+            </p>
+          </div>
+
+          <h2>2. Mengapa Ban Bisa Gesrot Fender Saat Jalan Bergelombang?</h2>
+          <p>
+            Banyak pemilik mobil hanya menguji fitment saat mobil dalam kondisi diam tanpa muatan di garasi. Namun
+            ketika mobil melewati polisi tidur, jalan tol bergelombang berkecepatan tinggi, atau membawa 4 orang
+            penumpang + koper, per mobil akan mengalami kompresi (bump travel).
+          </p>
+          <p>
+            Jika selisih jarak clearance bibir velg dengan fender lip kurang dari <strong>15 mm</strong>, gesrot atau
+            gesekan ban dengan plastik fender liner tidak dapat dihindari.
+          </p>
+
+          <h2>3. Tabel Panduan Fitment Aman Berdasarkan Segmen Mobil</h2>
+          <div style="overflow-x:auto; margin:24px 0;">
+            <table class="spec-table"
+              style="width:100%; border-collapse:collapse; background:#f8fafc; border:1px solid #e2e8f0;">
+              <thead>
+                <tr style="background:#0e0e10; color:#fff;">
+                  <th style="padding:12px; text-align:left;">Segmen Mobil</th>
+                  <th style="padding:12px; text-align:left;">Ukuran Velg Aman</th>
+                  <th style="padding:12px; text-align:left;">Rentang Offset (ET)</th>
+                  <th style="padding:12px; text-align:left;">Ukuran Ban Rekomendasi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style="border-bottom:1px solid #e2e8f0;">
+                  <td style="padding:12px; font-weight:700;">Hatchback / Small Sedan (City, Yaris, Jazz)</td>
+                  <td style="padding:12px;">16x7.0 atau 17x7.0</td>
+                  <td style="padding:12px;">ET +38 s/d +45</td>
+                  <td style="padding:12px;">195/50 R16 atau 205/45 R17</td>
+                </tr>
+                <tr style="border-bottom:1px solid #e2e8f0;">
+                  <td style="padding:12px; font-weight:700;">Medium Sedan (Civic, Corolla Altis, Mazda 3)</td>
+                  <td style="padding:12px;">18x8.0 atau 18x8.5</td>
+                  <td style="padding:12px;">ET +38 s/d +45</td>
+                  <td style="padding:12px;">225/40 R18 atau 235/40 R18</td>
+                </tr>
+                <tr style="border-bottom:1px solid #e2e8f0;">
+                  <td style="padding:12px; font-weight:700;">Luxury MPV (Alphard, Vellfire, Voxy)</td>
+                  <td style="padding:12px;">19x8.5 atau 20x8.5</td>
+                  <td style="padding:12px;">ET +35 s/d +42</td>
+                  <td style="padding:12px;">245/45 R19 atau 245/40 R20</td>
+                </tr>
+                <tr>
+                  <td style="padding:12px; font-weight:700;">European Performance (BMW 3 Series, Mercedes C-Class)</td>
+                  <td style="padding:12px;">19x8.5 (F) / 19x9.5 (R) Staggered</td>
+                  <td style="padding:12px;">ET +32 s/d +38</td>
+                  <td style="padding:12px;">225/40 R19 (F) & 255/35 R19 (R)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2>4. Gunakan Tire Calculator Otomatis</h2>
+          <p>
+            Untuk menghindari coba-coba yang memakan waktu dan berisiko merusak fender mobil kesayangan Anda, kami telah
+            menyediakan kalkulator fitment digital interaktif. Anda dapat memasukkan spesifikasi velg dan ban lama, lalu
+            membandingkannya secara real-time dengan kalkulasi visual 2D.
+          </p>
+
+          <div
+            style="background:linear-gradient(135deg, #1e293b, #0f172a); color:#fff; padding:28px; border-radius:var(--radius-md); margin:30px 0; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:20px;">
+            <div>
+              <h3 style="color:#fff; margin-bottom:6px;">Coba Kalkulator Fitment Ban & Velg</h3>
+              <p style="color:#94a3b8; font-size:0.9rem; margin:0;">Hitung diameter, deviasi speedometer, serta
+                pergeseran suspensi secara akurat.</p>
+            </div>
+            <a href="tire-calculator.html" class="btn btn-primary">Buka Tire Calculator</a>
+          </div>
+
+          <h2>5. Kesimpulan</h2>
+          <p>
+            Fitment yang sempurna bukan sekadar velg yang lebar atau menempel di bibir spakbor, melainkan perpaduan
+            antara estetika visual berkelas, performa handling optimal, dan kenyamanan tanpa kompromi. Konsultasikan
+            selalu rencana modifikasi Anda bersama teknisi berpengalaman di showroom VELOCE terdekat.
+          </p>
+
+        </div>
+
+        <!-- Tags and Share Section -->
+        <div class="article-tags-share">
+          <div class="tag-pills">
+            <span class="tag-pill">#FitmentGuide</span>
+            <span class="tag-pill">#OffsetVelg</span>
+            <span class="tag-pill">#TireCalculator</span>
+            <span class="tag-pill">#ModifikasiMobil</span>
+          </div>
+
+          <div class="share-links">
+            <span style="font-size:0.85rem; font-weight:700; color:#64748b;">Bagikan:</span>
+            <a href="https://wa.me/?text=Panduan%20Offset%20Velg%20VELOCE%20https://veloce-wheels.local/news-detail.html"
+              target="_blank" class="share-btn" aria-label="Share WhatsApp" title="WhatsApp">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M17.472 14.382c-.301-.15-1.78-.877-2.056-.977-.276-.101-.477-.15-.678.15-.2.301-.778.977-.954 1.178-.175.201-.351.226-.652.075s-1.272-.469-2.424-1.496c-.896-.799-1.501-1.786-1.677-2.087-.175-.301-.019-.464.132-.614.135-.135.301-.351.451-.527.15-.175.2-.301.301-.501.101-.2.05-.376-.025-.527s-.678-1.631-.929-2.233c-.244-.587-.493-.508-.678-.517-.175-.008-.376-.01-.577-.01s-.527.075-.803.376c-.276.301-1.054 1.03-1.054 2.511s1.079 2.912 1.23 3.113c.15.201 2.124 3.243 5.145 4.547.719.31 1.28.495 1.718.634.722.23 1.378.197 1.897.12.578-.087 1.78-.727 2.031-1.429.251-.702.251-1.304.175-1.429-.074-.125-.276-.2-.577-.35zM12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.982-1.39A9.957 9.957 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z" />
+              </svg>
+            </a>
+            <a href="https://twitter.com/intent/tweet?text=Panduan%20Fitment%20Velg&url=https://veloce-wheels.local/news-detail.html"
+              target="_blank" class="share-btn" aria-label="Share Twitter" title="Twitter / X">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </article>
+
+      <!-- Sidebar Column -->
+      <aside class="article-sidebar">
+
+        <!-- Booking CTA Card -->
+        <div class="shop-sidebar" style="background:#111215; color:#fff; border:none; text-align:center;">
+          <h3 style="color:#fff; font-size:1.2rem; margin-bottom:10px;">Konsultasi Fitment Mobil Anda</h3>
+          <p style="color:#94a3b8; font-size:0.85rem; line-height:1.6; margin-bottom:20px;">
+            Dapatkan rekomendasi velg dan ban yang presisi 100% untuk merk & tipe kendaraan Anda langsung dari tim
+            profesional kami.
+          </p>
+          <a href="https://wa.me/6281234567890?text=Halo%20VELOCE,%20saya%20ingin%20konsultasi%20fitment%20velg"
+            target="_blank" class="btn btn-primary"
+            style="width:100%; display:inline-flex; align-items:center; justify-content:center; gap:8px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M17.472 14.382c-.301-.15-1.78-.877-2.056-.977-.276-.101-.477-.15-.678.15-.2.301-.778.977-.954 1.178-.175.201-.351.226-.652.075s-1.272-.469-2.424-1.496c-.896-.799-1.501-1.786-1.677-2.087-.175-.301-.019-.464.132-.614.135-.135.301-.351.451-.527.15-.175.2-.301.301-.501.101-.2.05-.376-.025-.527s-.678-1.631-.929-2.233c-.244-.587-.493-.508-.678-.517-.175-.008-.376-.01-.577-.01s-.527.075-.803.376c-.276.301-1.054 1.03-1.054 2.511s1.079 2.912 1.23 3.113c.15.201 2.124 3.243 5.145 4.547.719.31 1.28.495 1.718.634.722.23 1.378.197 1.897.12.578-.087 1.78-.727 2.031-1.429.251-.702.251-1.304.175-1.429-.074-.125-.276-.2-.577-.35zM12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.982-1.39A9.957 9.957 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z" />
+            </svg>
+            WhatsApp Sekarang
+          </a>
+        </div>
+
+        <!-- Related Articles -->
+        <div class="shop-sidebar">
+          <h4 class="widget-title">Artikel Terkait</h4>
+          <div style="display:flex; flex-direction:column; gap:16px;">
+
+            <a href="news-detail.html" style="display:flex; gap:12px; align-items:center;">
+              <div
+                style="width:70px; height:70px; border-radius:6px; overflow:hidden; flex-shrink:0; background:#f1f5f9;">
+                <img src="https://images.unsplash.com/photo-1558441719-74e2d3be46b0?auto=format&fit=crop&w=200&q=80"
+                  alt="Forged vs Flow Forming" style="width:100%; height:100%; object-fit:cover;">
+              </div>
+              <div>
+                <span style="font-size:0.75rem; color:var(--primary); font-weight:700;">Teknologi Velg</span>
+                <h5 style="font-size:0.875rem; line-height:1.3; margin-top:2px;">Forged vs Flow Forming vs Casting</h5>
+              </div>
+            </a>
+
+            <a href="news-detail.html" style="display:flex; gap:12px; align-items:center;">
+              <div
+                style="width:70px; height:70px; border-radius:6px; overflow:hidden; flex-shrink:0; background:#f1f5f9;">
+                <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=200&q=80"
+                  alt="Michelin vs Pirelli" style="width:100%; height:100%; object-fit:cover;">
+              </div>
+              <div>
+                <span style="font-size:0.75rem; color:var(--primary); font-weight:700;">Review Ban</span>
+                <h5 style="font-size:0.875rem; line-height:1.3; margin-top:2px;">Michelin PS5 vs Pirelli P Zero: Duel
+                  Ban Sport</h5>
+              </div>
+            </a>
+
+            <a href="news-detail.html" style="display:flex; gap:12px; align-items:center;">
+              <div
+                style="width:70px; height:70px; border-radius:6px; overflow:hidden; flex-shrink:0; background:#f1f5f9;">
+                <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=200&q=80"
+                  alt="Fitment Alphard" style="width:100%; height:100%; object-fit:cover;">
+              </div>
+              <div>
+                <span style="font-size:0.75rem; color:var(--primary); font-weight:700;">Fitment Guide</span>
+                <h5 style="font-size:0.875rem; line-height:1.3; margin-top:2px;">Velg 20 & 21 Inci Toyota Alphard Gen 4
+                </h5>
+              </div>
+            </a>
+
+          </div>
+        </div>
+
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row" style="display:flex; flex-wrap:wrap; margin:-15px;">
+        <div class="col-4" style="flex:0 0 33.333%; padding:15px;">
+          <a href="index.html" class="brand-logo" style="margin-bottom: 16px;">
+            <span class="logo-badge">V</span>
+            <div class="logo-meta">
+              <span class="logo-title" style="color:#fff;">VELOCE</span>
+              <span class="logo-subtitle">WHEELS & TIRES</span>
+            </div>
+          </a>
+          <p style="color:#94a3b8; font-size:0.875rem; line-height:1.6; margin-bottom: 20px;">
+            Pusat velg original, ban performa tinggi, dan instalasi fitment presisi bergaransi di Indonesia.
+          </p>
+        </div>
+        <div class="col-2" style="flex:0 0 16.666%; padding:15px;">
+          <h4 class="footer-widget-title">Menu Cepat</h4>
+          <ul class="footer-links">
+            <li><a href="wheels.html">Velg / Wheels</a></li>
+            <li><a href="tires.html">Ban / Tires</a></li>
+            <li><a href="accessories.html">Aksesoris</a></li>
+            <li><a href="tire-calculator.html">Tire Calculator</a></li>
+            <li><a href="portfolio.html">Galeri Fitment</a></li>
+            <li><a href="news.html">News & Promo</a></li>
+          </ul>
+        </div>
+        <div class="col-2" style="flex:0 0 16.666%; padding:15px;">
+          <h4 class="footer-widget-title">Informasi</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">Tentang Kami</a></li>
+            <li><a href="contact.html">Lokasi Showroom</a></li>
+            <li><a href="contact.html#faq">FAQ Fitment</a></li>
+          </ul>
+        </div>
+        <div class="col-4" style="flex:0 0 33.333%; padding:15px;">
+          <h4 class="footer-widget-title">Workshop Sunter HQ</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <span>Kawasan Otomotif Terpadu Blok A No. 8, Sunter Raya, Jakarta Utara</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+            <span>Hotline: +62 812-3456-7890</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 VELOCE Luxury Wheels & Tires. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Search Modal -->
+  <div class="search-modal" aria-hidden="true">
+    <div class="search-box-wrap">
+      <button class="search-modal-close" aria-label="Tutup Pencarian">&times;</button>
+      <form action="wheels.html" method="GET" class="search-form-inner">
+        <input type="text" name="q" placeholder="Cari artikel, velg, atau ban..." required>
+        <button type="submit" aria-label="Cari"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg></button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Navigation">
+    <div class="drawer-header">
+      <a href="index.html" class="brand-logo">
+        <span class="logo-badge">V</span>
+        <span class="logo-title" style="color:#fff; font-size:1.1rem;">VELOCE</span>
+      </a>
+      <button class="drawer-close" aria-label="Tutup Menu">&times;</button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="newness.html" class="mobile-nav-link">Newness</a></li>
+      <li>
+        <a href="#" class="mobile-nav-link mobile-submenu-toggle">
+          Products
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </a>
+        <div class="mobile-submenu">
+          <a href="wheels.html">Velg / Wheels</a>
+          <a href="tires.html">Ban / Tires</a>
+          <a href="accessories.html">Accessories</a>
+        </div>
+      </li>
+      <li><a href="tire-calculator.html" class="mobile-nav-link" style="color:var(--primary);">Tire Calculator</a></li>
+      <li><a href="portfolio.html" class="mobile-nav-link">Portfolio</a></li>
+      <li><a href="news.html" class="mobile-nav-link active">News & Promo</a></li>
+      <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+    </ul>
+  </aside>
+
+  <!-- Scroll Top -->
+  <button class="scroll-top-btn" aria-label="Kembali ke atas"><svg width="20" height="20" viewBox="0 0 24 24"
+      fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15" />
+    </svg></button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
